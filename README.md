@@ -8,25 +8,25 @@ This challenge shows you how to deploy a Bluemix application, use IBM Bluemix De
 
  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/bluemix-code-challenge/challenge-personalityinsights.git)
 
-1. Enter an application name. The host you choose will determinate the subdomain of your application's URL: `<host>.mybluemix.net`.
+2. Enter an application name. The host you choose will determinate the subdomain of your application's URL: `<host>.mybluemix.net`.
 
-[![Deploy challenge application to IBM Bluemix](./img/deploy.png)](Deploy challenge application to IBM Bluemix)
+[![Deploy challenge application to IBM Bluemix](./img/deploy.png)](./img/deploy.png)
 
-1. Wait for the deployment to complete. Click on Edit Code.
+3. Wait for the deployment to complete. Click on Edit Code.
 
-[![Deployment summary](./img/deploymentsummary.png)](Deployment summary)
+[![Deployment summary](./img/deploymentsummary.png)](./img/deploymentsummary.png)
 
-1. The IBM Bluemix DevOps Services tools allow you to edit code in the browser, configure a pipeline of processes to execute when new code is committed, and deploy applications automatically to IBM Bluemix.
+4. The IBM Bluemix DevOps Services tools allow you to edit code in the browser, configure a pipeline of processes to execute when new code is committed, and deploy applications automatically to IBM Bluemix.
 
 Select `app.js` to edit the application source code.
 
-[![IBM Bluemix DevOps Services](./img/devops.png)](IBM Bluemix DevOps Services)
+[![IBM Bluemix DevOps Services](./img/devops.png)](./img/devops.png)
 
-1. In this challenge, we’ll analyze the personality of an author based on content they wrote.
+5. In this challenge, we’ll analyze the personality of an author based on content they wrote.
 
-[![IBM Bluemix DevOps Editor](./img/editor.png)](IBM Bluemix DevOps Editor)
+[![IBM Bluemix DevOps Editor](./img/editor.png)](./img/editor.png)
 
-1. Replace the following code with the contents of the file `personality.txt` (the value of the variable `contents`).
+6. Replace the following code with the contents of the file `personality.txt` (the value of the variable `contents`).
 
 ```
 ...
@@ -46,7 +46,7 @@ personality_insights.profile({
 ...
 ```
 
-1. Replace the value for the `email` property on line 53 with your email address. This will be used when claiming your raffle ticket.
+7. Replace the value for the `email` property on line 53 with your email address. This will be used when claiming your raffle ticket.
 ```
 ...
   // Change only the email address.
@@ -56,7 +56,7 @@ personality_insights.profile({
 ...
 ```
 
-1. Lastly, uncomment lines 66 – 68 so the application can be verified.
+8. Lastly, uncomment lines 66 – 68 so the application can be verified.
 
 ```
   // Uncomment
@@ -69,29 +69,29 @@ The change should look as shown below.
 
 ```
   // Uncomment
-  //request.post('https://code-checker.mybluemix.net/check/challengepersonalityinsights', {form: submission}, function(err, response, body) {
-  //  res.send(body);
-  //});
+  request.post('https://code-checker.mybluemix.net/check/challengepersonalityinsights', {form: submission}, function(err, response, body) {
+    res.send(body);
+  });
 ```
 
-1. Now that changes have been made, the following steps will commit the changes to the attached Git repo. Click on the Git icon on the left side.
+9. Now that changes have been made, the following steps will commit the changes to the attached Git repo. Click on the Git icon on the left side.
 
-[![Git icon](./img/giticon.png)](Git icon)
+[![Git icon](./img/giticon.png)](./img/giticon.png)
 
-1. Enter a commit message. Click on Commit.
+10. Enter a commit message. Click on Commit.
 
-[![Enter commit message](./img/commit.png)](Enter commit message)
+[![Enter commit message](./img/commit.png)](./img/commit.png)
 
-1. In the left column, click on Push in the Outgoing section. This will push the changes to the remote branch.
+11. In the left column, click on Push in the Outgoing section. This will push the changes to the remote branch.
 
-[![Push changes](./img/push.png)](Push changes)
+[![Push changes](./img/push.png)](./img/push.png)
 
-1. You can see the progress of the application deployment by clicking on the Build & Deploy button in the top-right corner of the page.
+12. You can see the progress of the application deployment by clicking on the Build & Deploy button in the top-right corner of the page.
 
-[![DevOps Pipeline](./img/pipeline.png)](DevOps Pipeline)
+[![DevOps Pipeline](./img/pipeline.png)](./img/pipeline.png)
 
-1. When the application has finished deploying to your IBM Bluemix account, visit your application’s URL, appended with `/personality`.
+13. When the application has finished deploying to your IBM Bluemix account, visit your application’s URL, appended with `/personality`.
 
-[![Result](./img/result.png)](Result)
+[![Result](./img/result.png)](./img/result.png)
 
-If you see a Fantastic page, you've completed this challenge sucessfully. If the page doesn't return a message, or it says Uh Oh!, please check the previous steps.
+If you see a Fantastic page, you've completed this challenge successfully. If the page doesn't return a message, or it says Uh Oh!, please check the previous steps.
