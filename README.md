@@ -46,7 +46,7 @@ This challenge shows you how to deploy a Bluemix application, use IBM Bluemix De
   ...
   ```
 
-7. Replace the value for the `email` property on line 53 with your email address. This will be used when claiming your raffle ticket.
+7. Replace the value for the `email` property on line 53 with your email address. 
   ```
   ...
     // Change only the email address.
