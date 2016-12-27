@@ -18,7 +18,7 @@ The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly t
 
  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/bluemix-code-challenge/challenge-personalityinsights.git)
 
-2. Enter an application name. The host you choose will determinate the subdomain of your application's URL: `<host>.mybluemix.net`.
+2. Enter an application name, which must be unique. The host you choose will determinate the subdomain of your application's URL: `<host>.mybluemix.net`.
 
   [![Deploy challenge application to IBM Bluemix](./img/deploy.png)](./img/deploy.png)
 
@@ -32,7 +32,7 @@ The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly t
 
   [![IBM Bluemix DevOps Services](./img/devops.png)](./img/devops.png)
 
-5. In this challenge, we’ll analyze the personality of an author based on content they wrote.
+5. In this challenge, we’ll analyze the personality of an author based on content they have written.
 
   [![IBM Bluemix DevOps Editor](./img/editor.png)](./img/editor.png)
 
