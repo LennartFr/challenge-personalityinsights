@@ -1,6 +1,6 @@
 # Code Challenge: Personality Insights
 
-This challenge shows you how to deploy an application on the IBM Bluemix cloud, https://bluemix.net/, use IBM Bluemix DevOps Services, https://hub.jazz.net, and use the IBM Watson Personality Insights service in Node.js. This service is hosted on this URL
+This challenge shows you how to deploy an application on the IBM Bluemix cloud, https://bluemix.net/, use IBM Bluemix DevOps Services, https://hub.jazz.net, and use the IBM Watson Personality Insights service in Node.js. This service is hosted at this URL
 https://www.ibm.com/watson/developercloud/personality-insights.html
 
 You can try the service by selecting a person and click on the **analyze button**  to see what personality this person has. For more on the personality models supported see this URL: https://www.ibm.com/watson/developercloud/doc/personality-insights/models.shtml You can also study up on the **API Reference** and **the Documentation.** 
@@ -8,7 +8,8 @@ You can try the service by selecting a person and click on the **analyze button*
 ## Running the app on Bluemix
 
 1. Deploy the challenge application
-We will start by clicking on this link: https://github.com/watson-developer-cloud/personality-insights-nodejs which brings us to the GitHub repository. We will then scroll down to the README.md file, where we will follow the instructions step by step. 
+We will start by clicking on this link: https://github.com/watson-developer-cloud/personality-insights-nodejs which brings us to the GitHub repository where the code is hosted. We will then scroll down to the **README.md** file, where we will follow the instructions step by step. 
+
 The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly to Bluemix 
 
  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/bluemix-code-challenge/challenge-personalityinsights.git)
