@@ -1,10 +1,9 @@
 # Code Challenge: Personality Insights
 
-This challenge shows you how to deploy a Bluemix application, use IBM Bluemix DevOps Services, and use the IBM Watson Personality Insights service in Node.js.
-
-The IBM Watson Personality Insights service is hosted on this link:
+This challenge shows you how to deploy an application on the IBM Bluemix cloud, https://bluemix.net/, use IBM Bluemix DevOps Services, https://hub.jazz.net, and use the IBM Watson Personality Insights service in Node.js. This service is hosted on this URL
 https://www.ibm.com/watson/developercloud/personality-insights.html
-You can try the service by selecting a person and click on the analyze button to see the output. You can study up on the API Reference and the Documentation. 
+
+You can try the service by selecting a person and click on the **analyze button**  to see what personality this person has. For more on the personality models supported see this URL: https://www.ibm.com/watson/developercloud/doc/personality-insights/models.shtml You can also study up on the **API Reference** and **the Documentation.** 
 
 ## Running the app on Bluemix
 
