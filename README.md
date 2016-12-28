@@ -12,32 +12,32 @@ You can try [a live demo of the service](https://personality-insights-livedemo.m
 
 Creating a Bluemix account is easy. For a detailed desription, check this [YouTube video:](https://www.youtube.com/watch?v=kUPwdfL8_oU&t=23s)
 
-1. Deploy the challenge application
+2. Deploy the challenge application
 We will start by clicking on this link: https://github.com/watson-developer-cloud/personality-insights-nodejs which brings us to the GitHub repository where the code is hosted. We will then scroll down to the **README.md** file, where we will follow the instructions step by step. 
 
 The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly to Bluemix 
 
  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/bluemix-code-challenge/challenge-personalityinsights.git)
 
-2. Enter an application name, which must be unique. The host you choose will determinate the subdomain of your application's URL: `<host>.mybluemix.net`.
+3. Enter an application name, which must be unique. The host you choose will determinate the subdomain of your application's URL: `<host>.mybluemix.net`.
 
   [![Deploy challenge application to IBM Bluemix](./img/deploy.png)](./img/deploy.png)
 
-3. Wait for the deployment to complete. Click on Edit Code.
+4. Wait for the deployment to complete. Click on Edit Code.
 
   [![Deployment summary](./img/deploymentsummary.png)](./img/deploymentsummary.png)
 
-4. The IBM Bluemix DevOps Services tools allow you to edit code in the browser, configure a pipeline of processes to execute when new code is committed, and deploy applications automatically to IBM Bluemix.
+5. The IBM Bluemix DevOps Services tools allow you to edit code in the browser, configure a pipeline of processes to execute when new code is committed, and deploy applications automatically to IBM Bluemix.
 
   Select `app.js` to edit the application source code.
 
   [![IBM Bluemix DevOps Services](./img/devops.png)](./img/devops.png)
 
-5. In this challenge, we’ll analyze the personality of an author based on content they have written.
+6. In this challenge, we’ll analyze the personality of an author based on content they have written.
 
   [![IBM Bluemix DevOps Editor](./img/editor.png)](./img/editor.png)
 
-6. Replace the following code with the contents of the file `personality.txt` (the value of the variable `contents`).
+7. Replace the following code with the contents of the file `personality.txt` (the value of the variable `contents`).
 
   ```
   ...
@@ -57,7 +57,7 @@ The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly t
   ...
   ```
 
-7. Replace the value for the `email` property on line 53 with your email address. 
+8. Replace the value for the `email` property on line 53 with your email address. 
   ```
   ...
     // Change only the email address.
@@ -67,7 +67,7 @@ The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly t
   ...
   ```
 
-8. Lastly, uncomment lines 66 – 68 so the application can be verified.
+9. Lastly, uncomment lines 66 – 68 so the application can be verified.
 
   ```
     // Uncomment
@@ -85,23 +85,23 @@ The **Deploy to Bluemix**  button allows us to deploy the GitHub code directly t
     });
   ```
 
-9. Now that changes have been made, the following steps will commit the changes to the attached Git repo. Click on the Git icon on the left side.
+10. Now that changes have been made, the following steps will commit the changes to the attached Git repo. Click on the Git icon on the left side.
 
   [![Git icon](./img/giticon.png)](./img/giticon.png)
 
-10. Enter a commit message. Click on Commit.
+11. Enter a commit message. Click on Commit.
 
   [![Enter commit message](./img/commit.png)](./img/commit.png)
 
-11. In the left column, click on Push in the Outgoing section. This will push the changes to the remote branch.
+12. In the left column, click on Push in the Outgoing section. This will push the changes to the remote branch.
 
   [![Push changes](./img/push.png)](./img/push.png)
 
-12. You can see the progress of the application deployment by clicking on the Build & Deploy button in the top-right corner of the page.
+13. You can see the progress of the application deployment by clicking on the Build & Deploy button in the top-right corner of the page.
 
   [![DevOps Pipeline](./img/pipeline.png)](./img/pipeline.png)
 
-13. When the application has finished deploying to your IBM Bluemix account, visit your application’s URL, appended with `/personality`.
+14. When the application has finished deploying to your IBM Bluemix account, visit your application’s URL, appended with `/personality`.
 
   [![Result](./img/result.png)](./img/result.png)
 
