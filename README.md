@@ -6,7 +6,7 @@ You can try [a live demo of the service](https://personality-insights-livedemo.m
 
 ## Running the app on Bluemix
 
-We will begin by creating a free account on Bluemix at this URL: https://console.ng.bluemix.net/ 
+1. We will begin by creating a free account on Bluemix at this URL: https://console.ng.bluemix.net/ 
 
 [![Crete a Free Account](./img/createaccount.png)](./img/createaccount.png)
 
