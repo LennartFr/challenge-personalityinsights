@@ -1,8 +1,8 @@
 # Code Challenge: Personality Insights
 
-In this challenge you will work with a Node.js application that analyzes personalities based on written output. The app is hosted on the [IBM Bluemix DevOps Services] (https://hub.jazz.net) cloud and uses the [Watson Personality Insights service]https://www.ibm.com/watson/developercloud/personality-insights.html] hoisted on the [IBM Bluemix cloud](https://bluemix.net/). 
+In this challenge you will work with a Node.js application that analyzes personalities based on written output. The app is hosted on the [IBM Bluemix DevOps Services](https://hub.jazz.net) cloud and uses the [Watson Personality Insights service](https://www.ibm.com/watson/developercloud/personality-insights.html) hosted on the [IBM Bluemix cloud](https://bluemix.net/). 
 
-You can try the service by selecting a person and click on the **analyze button**  to see what personality this person has. For more on the personality models supported see this URL: https://www.ibm.com/watson/developercloud/doc/personality-insights/models.shtml You can also study up on the **API Reference** and **the Documentation.** 
+You can try [a live demo of the service](https://personality-insights-livedemo.mybluemix.net/) by selecting a person and click on the **analyze button**  to see what personality this person has. You can learn more about [the personality models supported](https://www.ibm.com/watson/developercloud/doc/personality-insights/models.shtml) and also study up on the [**API Reference**](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/) and [**the Documentation.**](https://www.ibm.com/watson/developercloud/doc/personality-insights/) 
 
 ## Running the app on Bluemix
 
