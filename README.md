@@ -1,5 +1,10 @@
 # Code Challenge: Personality Insights
 
+This challenge shows you how to deploy an application on the IBM Bluemix cloud, https://bluemix.net/, use IBM Bluemix DevOps Services, https://hub.jazz.net, and use the Language Translator https://www.ibm.com/watson/developercloud/language-translator.html service in Node.js. 
+
+You can try the service at this link https://language-translator-demo.mybluemix.net/ You can also study up on the **API Reference** http://www.ibm.com/watson/developercloud/language-translator/api/v2/ and read **the Documentation.** http://www.ibm.com/watson/developercloud/doc/language-translator/ 
+
+************************************************************
 This challenge shows you how to deploy an application on the IBM Bluemix cloud, https://bluemix.net/, use IBM Bluemix DevOps Services, https://hub.jazz.net, and use the IBM Watson Personality Insights service in Node.js. This service is hosted at this URL
 https://www.ibm.com/watson/developercloud/personality-insights.html
 
