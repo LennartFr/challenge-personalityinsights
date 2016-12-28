@@ -11,6 +11,8 @@ You can try the service by selecting a person and click on the **analyze button*
 
 [![Crete a Free Account](./img/createaccount.png)](./img/createaccount.png)
 
+Creating a Bluemix is easy. For a detailed desription, check this YouTube video: https://www.youtube.com/watch?v=kUPwdfL8_oU&t=23s
+
 1. Deploy the challenge application
 We will start by clicking on this link: https://github.com/watson-developer-cloud/personality-insights-nodejs which brings us to the GitHub repository where the code is hosted. We will then scroll down to the **README.md** file, where we will follow the instructions step by step. 
 
