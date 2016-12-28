@@ -1,4 +1,4 @@
-# Code Challenge: Personality Insights
+# Code Challenge: Personality Insights 
 
 In this challenge you will work with a Node.js application that analyzes personalities based on written output. The app is hosted on the [IBM Bluemix DevOps Services](https://hub.jazz.net) cloud and uses the [Watson Personality Insights service](https://www.ibm.com/watson/developercloud/personality-insights.html) hosted on the [IBM Bluemix cloud](https://bluemix.net/). 
 
