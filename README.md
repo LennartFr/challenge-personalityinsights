@@ -8,7 +8,7 @@ You can try [a live demo of the service](https://personality-insights-livedemo.m
 
 1. We will begin by creating a free account on Bluemix at this URL: https://console.ng.bluemix.net/ 
 
-[![Crete a Free Account](./img/createaccount.png)](./img/createaccount.png)
+  [![Crete a Free Account](./img/createaccount.png)](./img/createaccount.png)
 
 Creating a Bluemix account is easy. For a detailed desription, check this [YouTube video:](https://www.youtube.com/watch?v=kUPwdfL8_oU&t=23s)
 
